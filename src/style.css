@@ -2,3 +2,22 @@ html,
 body {
   margin: 0px;
 }
+
+body {
+  background-color: lightgray;
+}
+
+#main {
+  position: relative;
+  margin: 50px auto;
+  padding: 5px;
+  width: 360px;
+  height: 660px;
+  background-color: lightblue;
+  border: 5px solid blue;
+  border-radius: 15px;
+}
+
+span {
+  color: blue;
+}
