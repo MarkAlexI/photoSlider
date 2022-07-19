@@ -32,3 +32,24 @@ span {
   border: 2px solid darkorchid;
   border-radius: 10px;
 }
+
+button {
+  position: absolute;
+  top: 300px;
+  width: 25px;
+  height: 70px;
+  font: 12pt arial,tahoma,sans-serif;
+  text-align: center;
+}
+
+button:hover {
+  filter: drop-shadow(0.25rem 0 0.75rem #ef9035);
+}
+
+.left {
+  left: 5px;
+}
+
+.right {
+  right: 5px;
+}
