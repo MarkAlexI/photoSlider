@@ -4,7 +4,6 @@ let slider = {
   set: function(image) {
     let path = "url(" + image + ")";
     console.log(path);
-    document.getElementById('scr').style.backgroundImage = path;
-    document.getElementById('scr').classList.toggle('animated');
+    document.getElementById('photo').style.backgroundImage = path;
   },
 };
