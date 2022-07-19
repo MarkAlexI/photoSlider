@@ -21,3 +21,14 @@ body {
 span {
   color: blue;
 }
+
+#photo {
+  margin: 20px auto;
+  width: 320px;
+  height: 600px;
+  margin-top: 20px;
+  background-color: white;
+  background-size: cover;
+  border: 2px solid darkorchid;
+  border-radius: 10px;
+}
