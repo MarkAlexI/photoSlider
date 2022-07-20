@@ -5,7 +5,7 @@ let slider = {
   frame: 0,
   
   set: function(image) {
-    let path = "url(" + image + ")";
+    let path = "url(../images/" + image + ")";
     console.log(path);
     document.getElementById('photo').style.backgroundImage = path;
   },
@@ -26,4 +26,11 @@ let slider = {
     this.init();
   },
   
+};
+
+window.onload = function() {
+  slider.init();
+  setInterval(function () {
+    slider.right();
+  }, 5e3);
 };
