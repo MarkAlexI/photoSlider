@@ -6,4 +6,7 @@ let slider = {
     console.log(path);
     document.getElementById('photo').style.backgroundImage = path;
   },
+  init: function () {
+    this.set(this.slides[this.frame]);
+  },
 };
