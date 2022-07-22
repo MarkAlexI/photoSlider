@@ -8,6 +8,7 @@ let slider = {
     let path = "url(../images/" + image + ")";
     console.log(path);
     document.getElementById('photo').style.backgroundImage = path;
+    document.getElementById('photo').className = 'animated1';
   },
   
   init: function () {
