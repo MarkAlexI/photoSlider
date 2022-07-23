@@ -2,7 +2,7 @@ let slider = {
   
   slides: ['1.jpg', '2.jpg', '3.jpg'],
   
-  animations: ['animated1'],
+  animations: ['animated1', 'animated2', 'animated3'],
   
   frame: 0,
   
