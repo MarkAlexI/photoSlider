@@ -85,3 +85,19 @@ button:hover {
     opacity: 1;
   }
 }
+
+.animated3 {
+  animation: third ease-out 1s;
+  width: fit-content;
+}
+
+@keyframes third {
+  0% {
+    transform: rotate(-15deg);
+    opacity: 0.5;
+  }
+  100% {
+    transform: none;
+    opacity: 1;
+  }
+}
