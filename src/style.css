@@ -55,13 +55,29 @@ button:hover {
 }
 
 .animated1 {
-  animation: hello 1s;
+  animation: first 1s;
   width: fit-content;
 }
 
-@keyframes hello {
+@keyframes first {
   0% {
     transform: translateY(-60px) rotateX(0.7turn);
+    opacity: 0;
+  }
+  100% {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.animated2 {
+  animation: second 1s;
+  width: fit-content;
+}
+
+@keyframes second {
+  0% {
+    transform: translateX(230px) rotateZ(90deg) scale(0.5);
     opacity: 0;
   }
   100% {
