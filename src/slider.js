@@ -10,7 +10,7 @@ let slider = {
     let path = "url(../images/" + image + ")";
     let rand = getRandomInt(0, this.animations.length - 1);
     let animatedClass = this.animations[rand];
-    console.log(path);
+    
     document.getElementById('photo').style.backgroundImage = path;
     document.getElementById('photo').className = animatedClass;
   },
